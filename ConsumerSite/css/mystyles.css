@@ -1,0 +1,88 @@
+.row-header {
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+
+.row-footer {
+    background-color: black;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+    color:#fff;
+}
+
+.row-footer .list-unstyled >li>a{
+    color:#fff;
+}
+
+.jumbotron {
+    padding: 70px 30px 70px 30px;
+    margin: 0px auto;
+    background: #7986CB;
+    color: floralwhite;
+}
+
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+
+.navbar-inverse {
+     background: #6fcde3;    
+     font-family: adobe-garamond-pro-bold, Georgia,"Times New Roman",serif;
+     
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #6fcde3;
+    background: #fff;
+}
+
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav >li >a{    
+    color:#fff;
+    font-family: BreathePro,adobe-garamond-pro-semibold,Georgia,"Times New Roman",Serif;
+     font-size: 1.5em;
+    height=30;
+    width=41;
+    
+}
+.navbar-inverse .navbar-nav > .open > a,
+ .navbar-inverse .navbar-nav > .open > a:hover,
+ .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #6fcde3;
+    background: #fff;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu> li> a,
+.navbar-inverse .navbar-nav .open .dropdown-menu {
+    background-color: #303F9F;
+    color:#fff;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu> li> a:hover {
+    color:#000000;
+}
+
+.navbar-form .label-custom{
+    color:#eeeeee;
+}
+
+.navbar-form .label-custom:hover{
+    color:#fff;
+}
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
