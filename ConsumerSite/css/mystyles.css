@@ -1,3 +1,22 @@
+@font-face{ 
+	font-family: 'fabfeltscript-bold';
+	src: url('Fonts/Webfont/fabfeltscript-bold.eot');
+	src: url('Fonts/Webfont/fabfeltscript-bold.eot?#iefix') format('embedded-opentype'),
+	     url('Fonts/Webfont/fabfeltscript-bold.woff') format('woff'),
+	     url('Fonts/Webfont/fabfeltscript-bold.ttf') format('truetype'),
+	     url('Fonts/Webfont/fabfeltscript-bold.svg#webfont') format('svg');
+}
+
+@font-face{
+    font-family: 'adobe-garamond-pro-semibold';
+    src: url('Fonts/AdobeGaramondProSemibold.ttf');
+}
+
+@font-face{
+    font-family: 'manifesto';
+    src: url('Fonts/Manifesto.ttf');
+}
+
 .row-header {
     margin: 0px auto;
     padding: 0px auto;
@@ -34,32 +53,64 @@ body{
 }
 
 .navbar-inverse {
-     background: #6fcde3;    
-     font-family: adobe-garamond-pro-bold, Georgia,"Times New Roman",serif;
+     background: #6fcde3;       
+     font-family: adobe-garamond-pro-semibold, Georgia,"Times New Roman",serif;
      
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: center;
+    min-height: 72px;
+    position: relative;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
 }
 
 .navbar-inverse .navbar-nav > .active > a,
-.navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
-    color: #6fcde3;
-    background: #fff;
+    color: #fff;
+    background: #6fcde3;
+    box-shadow: none;
 }
 
-.navbar-inverse .navbar-brand,
-.navbar-inverse .navbar-nav >li >a{    
+.navbar-inverse .navbar-brand {
     color:#fff;
-    font-family: BreathePro,adobe-garamond-pro-semibold,Georgia,"Times New Roman",Serif;
-     font-size: 1.5em;
+    font-family: 'fabfeltscript-bold';
+    font-size: 3em;
     height=30;
     width=41;
-    
+    vertical-align: middle;
+    line-height: 72px;
+    padding: 0px;  
+    display: inline-block !important;
 }
-.navbar-inverse .navbar-nav > .open > a,
- .navbar-inverse .navbar-nav > .open > a:hover,
- .navbar-inverse .navbar-nav > .open > a:focus {
-    color: #6fcde3;
-    background: #fff;
+
+
+.navbar-inverse .navbar-nav >li >a{    
+    color:#fff;
+    font-family: 'adobe-garamond-pro-semibold';
+    font-size: 1.5em;
+    height=30;
+    width=41;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 72px;    
+}
+
+.navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff;
+    background: #303F9F;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > .active > a:hover{
+    color: black;
+     background: #6fcde3;
 }
 
 .navbar-inverse .navbar-nav .open .dropdown-menu> li> a,
@@ -74,15 +125,4 @@ body{
 
 .navbar-form .label-custom{
     color:#eeeeee;
-}
-
-.navbar-form .label-custom:hover{
-    color:#fff;
-}
-
-.tab-content {
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    padding: 10px;
 }
