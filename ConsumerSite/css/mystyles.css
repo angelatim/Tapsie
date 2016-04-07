@@ -43,7 +43,7 @@
 .jumbotron {
     padding: 70px 30px 70px 30px;
     margin: 0px auto;
-    background: #7986CB;
+    background: floralwhite;
     color: floralwhite;
 }
 
@@ -125,4 +125,55 @@ body{
 
 .navbar-form .label-custom{
     color:#eeeeee;
+}
+
+@media all and (transform-3d), (-webkit-transform-3d) {
+  .carousel-inner > .item.next,
+  .carousel-inner > .item.active.right {
+      left: 0;
+      -webkit-transform: translate3d(25%, 0, 0);
+      transform: translate3d(25%, 0, 0);
+  }
+  .carousel-inner > .item.prev,
+  .carousel-inner > .item.active.left {
+      left: 0;
+      -webkit-transform: translate3d(-25%, 0, 0);
+      transform: translate3d(-25%, 0, 0);
+  }
+}
+
+.category-list{
+    background: #F3F3F3;
+    padding: 0 15px 20px;
+}
+
+.section-title {
+    margin-bottom: 3px;
+    color: #8b8b8b;
+}
+
+.category-list .featured-thumb-section-title .leaf {
+    background: url(img/leaf.png) no-repeat;
+    display: inline-block;
+    width: 23px;
+    height: 11px;
+    margin: 0 20px;
+}
+
+.category-list .featured-thumb-section-title .title-category {
+    font-size: 2.9rem;
+    font-family: "fabfeltscript-bold";
+    text-align: center;
+}
+
+.see-all-link {
+    position: absolute;
+    right: 6px;
+    top: 30px;
+    color: #afafaf;
+    font-size: 13px;
+}
+
+#primary{
+    
 }
